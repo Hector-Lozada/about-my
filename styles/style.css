@@ -88,6 +88,7 @@ html
 #inicio .contenido .presentacion .bienvenida
 {
 	font-size: 16px;
+	font-weight: bold;
 	margin-bottom: 20px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -100,15 +101,17 @@ html
 }
 #inicio .contenido .presentacion h2 span 
 {
-	font-size: 25px;
+	font-size: 55px;
 	color: #ff5080;
 }
+
 #inicio .contenido .presentacion .descripcion
 {
+	font-weight: bold;
 	max-width: 700px;
 	margin: 25px auto;
 	font-size: 18px;
-	text-align: center;
+	text-align: center justify;
 }
 #inicio .contenido .presentacion a
 {
@@ -160,6 +163,9 @@ html
 #sobremi .sobremi .titulo-seccion
 {
 	font-size: 22px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	letter-spacing: 5px;
 	text-transform: uppercase;
 	color: #111135;
 	text-decoration: underline;
@@ -168,10 +174,10 @@ html
 }
 #sobremi .sobremi h2
 {
-	font-size: 34px;
+	font-size: 28px;
 	font-weight: bold;
 	margin: 20px 0;
-	letter-spacing: 2px;
+	letter-spacing: 0;
 }
 #sobremi .sobremi h2 span
 {
@@ -180,14 +186,16 @@ html
 #sobremi .sobremi h3
 {
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	letter-spacing: 1px;
 }
 #sobremi .sobremi p
 {
+	text-align: justify;
 	font-size: 14px;
+	font-weight: bold;
 	line-height: 25px;
 	color: #565656;
 	margin-bottom: 12px;
@@ -470,7 +478,6 @@ html
 #contacto .contenedor-form input,
 #contacto .contenedor-form textarea
 {
-	text-align: center;
 	padding: 20px;
 	border-radius: 20px;
 	border: none;
