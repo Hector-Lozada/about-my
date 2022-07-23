@@ -225,8 +225,10 @@ html
 	text-align: center;
 	background-color: #f3f3f3;
 }
-#Servicios .titulo-seccion{
+#Servicios .titulo-seccion
+{
 	font-size: 20px;
+	letter-spacing: 5px;
 	text-transform: uppercase;
 	color: #111135;
 	text-decoration: underline;
@@ -278,12 +280,14 @@ html
 #Servicios .fila .servicio ul 
 {
 	list-style: none;
+	font-weight: bold;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 10px;
 }
 #Servicios .fila .servicio p
 {
+	font-weight: bold;
 	font-size: 14px;
 	line-height: 22px;
 }
@@ -297,15 +301,21 @@ html
 	background-position: center center;
 	padding: 100px 0;
 	text-align: center;
+	letter-spacing: 5px;
 }
 .contenedor-skills .skill 
 {
 	max-width: 600px;
 	margin: 30px auto;
 }
+.contenedor-skills .skill h3
+{
+	letter-spacing: 5px;
+}
 .contenedor-skills .skill .info
 {
 	display: flex;
+	letter-spacing: 0;
 	justify-content: space-between;
 	font-size: 18px;
 	font-weight: bold;
@@ -395,6 +405,7 @@ html
 #portafolio .titulo-seccion
 {
 	text-align: center;
+	letter-spacing: 5px;
 	font-size: 22px;
 	text-transform: uppercase;
 	color: #111135;
@@ -453,6 +464,7 @@ html
 #contacto .titulo-seccion
 {
 	margin-bottom: 20px;
+	letter-spacing: 5px;
 	text-align: center;
 	font-size: 22px;
 	text-transform: uppercase;
