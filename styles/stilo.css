@@ -36,7 +36,7 @@
 }
 .slick{
     position: relative;
-    width: 407px;
+    width: 409px;
     padding: 0 18px;
     float: left;
     box-sizing: border-box;
@@ -57,7 +57,6 @@
 }
 .slick a img{
     object-fit: cover;
-    filter: grayscale(1);
     height: 100%;
     width: 100%;
     border-radius: 4px;
@@ -66,7 +65,6 @@
 }
 .slick a img:hover{
     opacity: .85;
-    filter: grayscale(0);
 }
 
 /* buttons */
@@ -87,7 +85,7 @@
     outline: 0;
 }
 .slick-arrow svg{
-    width: 12px;
+    width: 10px;
     height: 100%;
     color: rgba(0,0,0,.7);
 }
