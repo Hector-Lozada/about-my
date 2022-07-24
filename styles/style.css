@@ -70,6 +70,19 @@ html
 {
 	color: #ff5080;
 }
+
+#inicio .contenido header .contenido-header .redes1 a 
+{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	margin-left: 10px;
+	transition: .5s;
+}
+#inicio .contenido header .contenido-header .redes1 a:hover
+{
+	color: #ff5080;
+}
 #inicio .contenido header .contenido-header .seleccionado
 {
 	color: #ff8050;
@@ -550,9 +563,14 @@ footer a
 {
 	.redes
 	{
-		display: none;
+		display: block;
 	}
 	nav
+	{
+		display: none;
+		align-items: center;
+	}
+	.redes1 
 	{
 		display: none;
 	}

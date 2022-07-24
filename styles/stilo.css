@@ -22,7 +22,7 @@
     width: fit-content;
     height: 304px;
     padding: 10px 0px;
-    margin: auto;
+    margin: 0 auto;
     max-width: 90vw;
     overflow: hidden;
 }
@@ -32,7 +32,7 @@
     left: 0;
     display: flex;
     justify-content: center;
-    transition: .5s ease-in-out;
+    transition: .5s;
 }
 .slick{
     position: relative;
@@ -94,4 +94,23 @@
 }
 .slick-next{
     right: 0px;
+}
+@media screen and (max-width: 800px)
+{
+    #portafolio
+    {
+        padding: 50px 15px;
+    }
+    #portafolio .Carousel
+    {
+        display: block;
+    }
+    #portafolio .Carousel .slick-track
+    {
+        margin: 10px auto;
+    }
+    #portafolio .Carousel .slick
+    {
+        margin: 10px auto;
+    }
 }
