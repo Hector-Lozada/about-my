@@ -639,6 +639,7 @@ footer a
 	#contenedor-skills
 	{
 		padding: 50px 20px;
+		max-width: 200px;
 	}
 	#portafolio
 	{
