@@ -100,7 +100,6 @@
 
     #portafolio .Carousel .slick-list
     {
-        max-width: 410px;
+        width: 410px;
     }
-
 }

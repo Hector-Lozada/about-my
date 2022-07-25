@@ -23,8 +23,8 @@ App.prototype.processingButton = function(event) {
 
 let prevAction = (leftPosition,slickWidth,track) => {
     if(leftPosition > 0) {
-        console.log("entro 3")
-        track.style.left = `${-15 * (leftPosition - slickWidth)}px`;
+        console.log("entro 2")
+        track.style.left = `${-1 * (leftPosition - slickWidth)}px`;
     }
 }
 
